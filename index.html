@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskFlow AI Assistant - SIP Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">TaskFlow AI</div>
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#boards">Boards</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <h1>TaskFlow AI Assistant</h1>
+    <p>Juan Rodriguez | SIP 311</p>
+    <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+      Explore Project
+    </button>
+  </section>
+
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <div class="card about-container">
+      <p>Hi, I'm <strong>Juan Rodriguez</strong>! I am a young developer who'sfocused on building smart, efficient software solutions that solve real-world problems and help others.I love having a bridge between clean code and intuitive user experiences.</p>
+      <p style="margin-top: 15px;">TaskFlow AI Assistant represents my SIP 311 project—born out of a desire to streamline messy agile workspaces and help development teams stay focused on what truly matters: building great products.</p>
+    </div>
+  </section>
+
+  <section id="problem" class="section fade-in">
+    <h2>Problem</h2>
+    <div class="card">
+      <p>Modern project management tools are often overwhelming, requiring heavy manual updates. Teams lose time organizing tasks instead of executing them, leading to missed deadlines and disjointed communication.</p>
+    </div>
+  </section>
+
+  <section id="solution" class="section fade-in">
+    <h2>Innovation / Solution</h2>
+    <div class="card">
+      <p>TaskFlow AI Assistant integrates intelligent automation directly into agile workflows. It dynamically categorizes tasks, predicts project bottlenecks using historical velocity, and generates automatic daily summaries so teams can focus purely on innovation.</p>
+    </div>
+  </section>
+
+  <section id="boards" class="section fade-in">
+    <h2>App Boards</h2>
+    <div class="boards-container">
+      <div class="board-column">
+        <h3>To Do</h3>
+        <div class="board-card">
+          <h4>Design Database Schema</h4>
+          <span class="tag high">High Priority</span>
+        </div>
+        <div class="board-card">
+          <h4>AI Model Fine-tuning</h4>
+          <span class="tag ai">AI Task</span>
+        </div>
+      </div>
+      <div class="board-column">
+        <h3>In Progress</h3>
+        <div class="board-card">
+          <h4>Frontend Core Layout</h4>
+          <span class="tag medium">Medium Priority</span>
+        </div>
+        <div class="board-card">
+          <h4>Integrate NLP for Auto-Summaries</h4>
+          <span class="tag ai">AI Task</span>
+        </div>
+      </div>
+      <div class="board-column">
+        <h3>Done</h3>
+        <div class="board-card">
+          <h4>Project Setup &amp; Initialization</h4>
+          <span class="tag complete">Completed</span>
+        </div>
+        <div class="board-card">
+          <h4>Establish Agile Velocity Metrics</h4>
+          <span class="tag complete">Completed</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="section fade-in">
+    <h2>Design Process</h2>
+    <div class="timeline">
+      <div class="step">
+        <h4>Research &amp; Brainstorming</h4>
+        <p>Analyzing developer pain points with current task managers and mapping AI feature concepts.</p>
+      </div>
+      <div class="step">
+        <h4>Design &amp; Planning</h4>
+        <p>Wireframing the minimal Kanban UI layout and designing prompt engineering workflows.</p>
+      </div>
+      <div class="step">
+        <h4>Building Prototype</h4>
+        <p>Developing the responsive layout with HTML, CSS, and integrating core JavaScript mechanics.</p>
+      </div>
+      <div class="step">
+        <h4>Testing &amp; Improving</h4>
+        <p>Gathering user feedback on the AI suggestion accuracy and optimizing application UI responsiveness.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>Connect with Me</h2>
+    <div class="card contact-wrapper">
+      <p>Interested in collaborating or reviewing the technical implementation of TaskFlow AI Assistant? Reach out through the form or check my profiles below!</p>
+      
+      <div class="social-badges">
+        <a href="mailto:your.JRODRIGUEZRAYA87081@uat.edu" class="badge-link">Email Me</a>
+        <a href="https://github.com/2JuanRodriguez3" target="_blank" class="badge-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/juan-rodriguez-076572353/" target="_blank" class="badge-link">LinkedIn</a>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Juan Rodriguez | TaskFlow AI Portfolio</p>
+    <div class="footer-links">
+      <a href="mailto:JRODRIGUEZRAYA87081@uat.edu">Email</a> | 
+      <a href="https://github.com/2JuanRodriguez3" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/juan-rodriguez-076572353/" target="_blank">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
