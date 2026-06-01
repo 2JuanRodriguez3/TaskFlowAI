@@ -50,7 +50,6 @@ nav a:hover {
   text-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
 }
 
-/* HERO SECTION */
 .hero {
   height: 100vh;
   display: flex;
@@ -109,7 +108,7 @@ h2 {
   padding-bottom: 10px;
 }
 
-/* GENERAL BLOCKS & CARDS */
+/* THE GENERAL BLOCKS & CARDS */
 .card {
   background: rgba(255, 255, 255, 0.03);
   padding: 30px;
@@ -127,7 +126,7 @@ h2 {
   transform: translateY(-2px);
 }
 
-/* FIXED KANBAN BOARDS SYSTEM */
+/* BOARDS SYSTEM */
 .boards-container {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)); /* Force exactly 3 structural columns */
@@ -348,7 +347,6 @@ footer {
   transform: translateY(0);
 }
 
-/* RESPONSIVE LAYOUT BREAKS (For Phones/Tablets) */
 @media (max-width: 768px) {
   nav {
     padding: 15px 20px;
