@@ -3,27 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TaskFlow AI Assistant - SIP Portfolio</title>
+  <title>BrickBrain - Intelligent LEGO Build System</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Quick inline styles to ensure the logo images scale nicely */
+    .logo-img {
+      height: 40px; /* Adjust navigation logo size */
+      vertical-align: middle;
+    }
+    .hero-logo {
+      max-width: 300px; /* Adjust hero section logo size */
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
 <body>
 
   <nav>
-    <div class="logo">TaskFlow AI</div>
+    <div class="logo">
+      <img src="BrickBrain logo.png" alt="BrickBrain Logo" class="logo-img">
+    </div>
     <div class="links">
       <a href="#home">Home</a>
       <a href="#about">About Me</a>
       <a href="#problem">Problem</a>
       <a href="#solution">Solution</a>
-      <a href="#boards">Boards</a>
       <a href="#process">Process</a>
+      <a href="#visuals">Visuals</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
 
   <section id="home" class="hero">
-    <h1>TaskFlow AI Assistant</h1>
+    <h1>BrickBrain</h1>
+    <p>Intelligent LEGO Build System</p>
     <p>Juan Rodriguez | SIP 311</p>
+
     <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
       Explore Project
     </button>
@@ -31,62 +48,30 @@
 
   <section id="about" class="section fade-in">
     <h2>About Me</h2>
-    <div class=" card about-container">
-      <p>Hi, I'm <strong>Juan Rodriguez</strong>! I am a young developer who's focused on building smart, efficient software solutions that solve real-world problems and help others.I love having a bridge between clean code and intuitive user experiences.</p>
-      <p style="margin-top: 15px;">TaskFlow AI Assistant represents my SIP 311 project—born out of a desire to streamline messy agile workspaces and help development teams stay focused on what truly matters: building great products.</p>
+    <div class="card">
+      <p>
+        Hi, I'm <strong>Juan Rodriguez</strong>, an Advanced Computer Science student at UAT with a passion for AI, software development, and LEGO building.
+
+      </p>
+    
     </div>
   </section>
 
   <section id="problem" class="section fade-in">
     <h2>Problem</h2>
     <div class="card">
-      <p>Modern project management tools are often overwhelming, requiring heavy manual updates. Teams lose time organizing tasks instead of executing them, leading to missed deadlines and disjointed communication.</p>
+      <p>
+        LEGO enthusiasts often have large collections of unused or leftover pieces. Existing tools focus on official sets and instructions, not creative reuse of inventory.
+      </p>
     </div>
   </section>
 
   <section id="solution" class="section fade-in">
     <h2>Innovation / Solution</h2>
     <div class="card">
-      <p>TaskFlow AI Assistant integrates intelligent automation directly into agile workflows. It dynamically categorizes tasks, predicts project bottlenecks using historical velocity, and generates automatic daily summaries so teams can focus purely on innovation.</p>
-    </div>
-  </section>
-
-  <section id="boards" class="section fade-in">
-    <h2>App Boards</h2>
-    <div class="boards-container">
-      <div class="board-column">
-        <h3>To Do</h3>
-        <div class="board-card">
-          <h4>Design Database Schema</h4>
-          <span class="tag high">High Priority</span>
-        </div>
-        <div class="board-card">
-          <h4>AI Model Fine-tuning</h4>
-          <span class="tag ai">AI Task</span>
-        </div>
-      </div>
-      <div class="board-column">
-        <h3>In Progress</h3>
-        <div class="board-card">
-          <h4>Frontend Core Layout</h4>
-          <span class="tag medium">Medium Priority</span>
-        </div>
-        <div class="board-card">
-          <h4>Integrate NLP for Auto-Summaries</h4>
-          <span class="tag ai">AI Task</span>
-        </div>
-      </div>
-      <div class="board-column">
-        <h3>Done</h3>
-        <div class="board-card">
-          <h4>Project Setup &amp; Initialization</h4>
-          <span class="tag complete">Completed</span>
-        </div>
-        <div class="board-card">
-          <h4>Establish Agile Velocity Metrics</h4>
-          <span class="tag complete">Completed</span>
-        </div>
-      </div>
+      <p>
+        BrickBrain combines artificial intelligence and inventory management, with LEGO creativity to help users discover new and unique build possibilities from their existing collections. 
+      </p>
     </div>
   </section>
 
@@ -94,53 +79,91 @@
     <h2>Design Process</h2>
     <div class="timeline">
       <div class="step">
-        <h4>Research &amp; Brainstorming</h4>
-        <p>Analyzing developer pain points with current task managers and mapping AI feature concepts.</p>
+        <h4>Research</h4>
+        <p>Studied LEGO Builder and BrickLink Studio to identify gaps in creative generation tools.</p>
       </div>
+
       <div class="step">
-        <h4>Design &amp; Planning</h4>
-        <p>Wireframing the minimal Kanban UI layout and designing prompt engineering workflows.</p>
+        <h4>Planning</h4>
+        <p>Designed inventory system and AI recommendation structure.</p>
       </div>
+
       <div class="step">
-        <h4>Building Prototype</h4>
-        <p>Developing the responsive layout with HTML, CSS, and integrating core JavaScript mechanics.</p>
+        <h4>Development</h4>
+        <p>Built responsive web prototype using HTML, CSS, and JavaScript.</p>
       </div>
+
       <div class="step">
-        <h4>Testing &amp; Improving</h4>
-        <p>Gathering user feedback on the AI suggestion accuracy and optimizing application UI responsiveness.</p>
+        <h4>Testing</h4>
+        <p>Improved suggestion logic and UI experience for usability.</p>
       </div>
+    </div>
+  </section>
+
+  <section id="visuals" class="section fade-in">
+    <h2>Project Visuals & Demos</h2>
+    <div class="visuals-grid">
+      
+      <!-- Card 1: Sketch/Ideation -->
+      <div class="card visual-card">
+        <div class="image-placeholder">
+          <img src="BrickBrain Sketch.jpg" alt="Initial Concept Sketch" class="demo-image">
+        </div>
+        <h4>Initial Concept Sketches</h4>
+        <p>Early ideation mapping out how the brick inventories can be managed and how pieces will be reviewed for creative suggestions.</p>
+      </div>
+
+      <!-- Card 2: UI Dashboard Demo -->
+      <div class="card visual-card">
+        <div class="image-placeholder">
+          <img src="BrickBrain.png" alt="UI Dashboard Demo" class="demo-image">
+        </div>
+        <h4>Centralized UI Dashboard</h4>
+        <p>A preview of the clean user interface, featuring interactive grid layouts and live brick inventory tracking.</p>
+      </div>
+
+      <!-- Card 3: Logo Test -->
+              <div class="card visual-card">
+        <div class="image-placeholder">
+          <img src="BrickBrain logo.png" alt="BrickBrain Logo Variant 1" class="demo-image">
+        </div>
+        <h4>Logo  Test 1</h4>
+        <p>This design test is evaluating color contrast and icon balance for the branding assets, between tech and LEGOs.</p>
+      </div>
+
     </div>
   </section>
 
   <section id="contact" class="section fade-in">
     <h2>Connect with Me</h2>
-    <div class="card contact-wrapper">
-      <p>Interested in collaborating or reviewing the technical implementation of TaskFlow AI Assistant? Reach out through the form or check my profiles below!</p>
-      
+    <div class="card">
+      <p>Reach out for collaboration or feedback on BrickBrain.</p>
+
       <div class="social-badges">
-        <a href="mailto:your.JRODRIGUEZRAYA87081@uat.edu" class="badge-link">Email Me</a>
+        <a href="mailto:JRODRIGUEZRAYA87081@uat.edu" class="badge-link">Email</a>
         <a href="https://github.com/2JuanRodriguez3" target="_blank" class="badge-link">GitHub</a>
         <a href="https://www.linkedin.com/in/juan-rodriguez-076572353/" target="_blank" class="badge-link">LinkedIn</a>
       </div>
 
-      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
       </form>
     </div>
   </section>
 
   <footer>
-    <p>&copy; 2026 Juan Rodriguez | TaskFlow AI Portfolio</p>
-    <div class="footer-links">
-      <a href="mailto:JRODRIGUEZRAYA87081@uat.edu">Email</a> | 
-      <a href="https://github.com/2JuanRodriguez3" target="_blank">GitHub</a> | 
-      <a href="https://www.linkedin.com/in/juan-rodriguez-076572353/" target="_blank">LinkedIn</a>
-    </div>
+    <p>&copy; 2026 Juan Rodriguez | BrickBrain</p>
   </footer>
 
-  <script src="script.js"></script>
+  <div id="lightbox" class="lightbox" onclick="this.classList.remove('active')">
+    <img id="lightbox-img" src="" alt="Enlarged view">
+  </div>
+
+  <script src="script.js"></script> </body>
+</html>
+
 </body>
 </html>
